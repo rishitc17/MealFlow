@@ -281,7 +281,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const consentCheckbox = document.getElementById('consent-checkbox');
                 if (!consentCheckbox || !consentCheckbox.checked) {
                     consentCheckbox?.focus();
-                    alert('You must consent to sharing your family data with AI to sign up.');
+                    alert('You must consent to sign up.');
                     return;
                 }
                 const name = document.getElementById('modal-signup-name').value;
