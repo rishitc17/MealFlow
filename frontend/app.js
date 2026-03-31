@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const API_BASE_URL = 'https://mealflow.fastapicloud.dev'; // Backend API host running on FastAPI Cloud
+    const API_BASE_URL = 'http://127.0.0.1:8000/'; // Backend API host running on FastAPI Cloud
     const page = window.location.pathname.split('/').pop();
 
     // --- AUTHENTICATION & DATA MGMT ---
