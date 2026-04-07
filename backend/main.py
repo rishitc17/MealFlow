@@ -68,6 +68,9 @@ try:
     appwrite_client.set_endpoint(APPWRITE_ENDPOINT)
     appwrite_client.set_project(APPWRITE_PROJECT)
     appwrite_client.set_key(APPWRITE_KEY)
+
+    appwrite_client.set_self_signed(True)  # <-- ADD THIS
+
     appwrite_db = AppwriteDatabases(appwrite_client)
 except Exception as e:
     print(f"Appwrite client init failed: {e}")
