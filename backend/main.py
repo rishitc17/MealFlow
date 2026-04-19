@@ -236,7 +236,7 @@ def get_recipe_from_groq(preprompt: str):
     try:
         chat_completion = client.chat.completions.create(
             messages=[{"role": "user", "content": preprompt}],
-            model="llama-3.1-8b-instant",
+            model="openai/gpt-oss-120b",
         )
         return chat_completion.choices[0].message.content
     except Exception as e:
