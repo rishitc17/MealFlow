@@ -9,7 +9,7 @@ MealFlow was created to simplify decision making at meal times in Indian househo
 ## Features
 
 - Storage of family member preferences 
-- Comprehensive list of Indian ingredients (stored in [`ingredients.csv`](https://github.com/rishitc17/MealFlow/blob/main/frontend/ingredients.csv))
+- Comprehensive list of Indian ingredients (stored in `[ingredients.csv](https://github.com/rishitc17/MealFlow/blob/main/frontend/ingredients.csv)`)
 - AI-powered recipe generation
 
 ## Technologies
@@ -23,7 +23,18 @@ MealFlow was created to simplify decision making at meal times in Indian househo
 
 ## Screenshots
 
+### Landing Page
 ![Homepage](.github/MealFlow.png)
+
+### Family Page
+![Family Page](.github/MealFlowFamily.png)
+
+### Ingredients Page
+![Ingredients Page](.github/MealFlowKitchen.png)
+
+### Recipe Page
+![Recipe Page](.github/MealFlowRecipe1.png)
+![Recipe Page](.github/MealFlowRecipe2.png)
 
 ## Future Improvements
 
